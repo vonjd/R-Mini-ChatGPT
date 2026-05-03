@@ -375,7 +375,7 @@ cat(sprintf("Model created with %s parameters\n", format(total_params, big.mark 
 
 # Train model with timing
 cat("\nStarting training...\n")
-cat("Training for 500 epochs with larger corpus - this will take longer but produce much better results!\n")
+cat("Training for 1000 epochs with larger corpus - this will take longer but produce much better results!\n")
 cat("Target: Loss should drop below 2.5 for good quality text generation.\n\n")
 training_start_time <- Sys.time()
 
